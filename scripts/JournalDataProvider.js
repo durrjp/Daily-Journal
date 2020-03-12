@@ -1,42 +1,47 @@
-/*
- *   Journal data provider for Daily Journal application
- *
- *      Holds the raw data about each entry and exports
- *      functions that other modules can use to filter
- *      the entries for different purposes.
- */
 
-// This is the original data. Can't Touch This.
-const journal = [
-    {
-        id: 1,
-        date: "07/24/2025",
-        concept: "HTML & CSS",
-        entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-        mood: "Ok"
-    },
-    {
-        id: 2,
-        date: "02/27/2020",
-        concept: "Javascript",
-        entry: "We learned some new javascript including HTML rendering automation.",
-        mood: "Happy"
-    },
-    {
-        id: 3,
-        date: "02/28/2020",
-        concept: "HTML & CSS",
-        entry: "Steve reviewed the code Globetrotters created for our first project. The biggest feedback was the nav bar needed better CSS style naming. I created it so I'll need to fix those styles!",
-        mood: "Meh"
-    },
-]
+const eventHub = document.querySelector(".body")
 
+const dispatchStateChangeEvent = () => {
+    const noteStateChangedEvent = new CustomEvent("noteStateChanged")
+    eventHub.dispatchEvent(noteStateChangedEvent)
+}
+
+let entries = []
+export const getEntries = () => {
+    return fetch("http://localhost:3000/entries") // Fetch from the API
+    .then(response => response.json())  // Parse as JSON
+    .then(parsedEntries => {
+        entries = parsedEntries.slice()
+        // What should happen when we finally have the array?
+            }
+        )
+}
+
+export const saveEntry = entry => {
+    fetch('http://localhost:3000/entries', {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(entry)
+    })
+    .then(getEntries)
+    .then(dispatchStateChangeEvent)
+}
+
+eventHub.addEventListener("saveClicked", event => {
+    const newEntry = event.detail
+    if ("date" in event.detail) {
+    }
+    saveEntry(newEntry)
+})
 /*
     You export a function that provides a version of the
     raw data in the format that you want
 */
+
 export const useJournalEntries = () => {
-    const sortedByDate = journal.sort(
+    const sortedByDate = entries.sort(
         (currentEntry, nextEntry) =>
             Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
     )

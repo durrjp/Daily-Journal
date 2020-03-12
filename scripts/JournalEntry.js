@@ -5,10 +5,10 @@
 const JournalEntryComponent = (entryitem) => {
     return `
         <section id="entry--${entryitem.id}" class="journalEntry">
-            ${entryitem.date}<br>
-            We learned about ${entryitem.concept}.<br>
-            Entry: ${entryitem.entry}<br>
-            Overal Mood: ${entryitem.mood}<br><br><br>
+            <div>Date: ${entryitem.date}</div>
+            <div>Concept: ${entryitem.concept}</div>
+            <div>Entry: ${entryitem.entry}</div>
+            <div>Overal Mood: ${entryitem.mood}</div>
         </section>
     `
 }

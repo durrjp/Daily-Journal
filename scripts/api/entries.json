@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "date": "02/28/2020",
+      "concept": "HTML & CSS",
+      "entry": "Steve reviewed the code Globetrotters created for our first project. The biggest feedback was the nav bar needed better CSS style naming. I created it so I'll need to fix those styles!",
+      "mood": "Meh",
+      "id": 1
+    },
+    {
+      "date": "2020-03-12",
+      "concept": "Coding",
+      "entry": "Test entry",
+      "mood": "PUMPED",
+      "id": 2
+    },
+    {
+      "date": "2020-03-12",
+      "concept": "Event Listeners",
+      "entry": "Today I learned how to effectively implement event listeners into a site. I also finally figured out how to interact with a server to render these journal entries when I submit them. WOO!",
+      "mood": "PUMPED",
+      "id": 3
+    }
+  ]
+}
