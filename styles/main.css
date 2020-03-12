@@ -1,14 +1,33 @@
 .body {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin: 0em;
 }
 .form {
     display: flex;
     flex-direction: column;
+    height: 30%;
 }
 .formitem {
     display: flex;
     flex-direction: column;
 }
 
-.journalentry
+.entryLog {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    height: 100%;
+    overflow-y: scroll;
+}
+.journalEntry {
+    margin: 1em;
+    padding: 1em
+}
+
+.outerouterentryLog, .outerentryLog {
+    height: 30em;
+    margin: 0em;
+ }
+ 

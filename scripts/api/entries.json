@@ -20,6 +20,20 @@
       "entry": "Today I learned how to effectively implement event listeners into a site. I also finally figured out how to interact with a server to render these journal entries when I submit them. WOO!",
       "mood": "PUMPED",
       "id": 3
+    },
+    {
+      "date": "2020-03-12",
+      "concept": "test",
+      "entry": "sdgdsaga",
+      "mood": "PUMPED",
+      "id": 4
+    },
+    {
+      "date": "2020-03-12",
+      "concept": "test",
+      "entry": "sdgdsaga",
+      "mood": "PUMPED",
+      "id": 5
     }
   ]
 }

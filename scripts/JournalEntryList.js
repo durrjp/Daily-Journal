@@ -8,7 +8,7 @@ import { useJournalEntries } from "./JournalDataProvider.js"
 import JournalEntryComponent from "./JournalEntry.js"
 
 // DOM reference to where all entries will be rendered
-const contentTarget = document.querySelector("#entryLog")
+const contentTarget = document.querySelector(".entryLog")
 const eventHub = document.querySelector(".body")
 
 eventHub.addEventListener("noteStateChanged", () => {
