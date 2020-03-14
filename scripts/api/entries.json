@@ -4,7 +4,7 @@
       "date": "02/28/2020",
       "concept": "HTML & CSS",
       "entry": "Steve reviewed the code Globetrotters created for our first project. The biggest feedback was the nav bar needed better CSS style naming. I created it so I'll need to fix those styles!",
-      "mood": "Meh",
+      "mood": "Okay",
       "id": 1
     },
     {
@@ -27,6 +27,13 @@
       "entry": "Today we spent the day broken out into groups remotely on zoom. The project was to use event listeners to make the page respond by clicking a button/selecting a radio, and updating css classes in specific sections",
       "mood": "Happy",
       "id": 6
+    },
+    {
+      "date": "2020-03-14",
+      "concept": "CSS Timelines",
+      "entry": "Learned how to incorporate CSS timelines into my daily journal",
+      "mood": "PUMPED",
+      "id": 7
     }
   ]
 }

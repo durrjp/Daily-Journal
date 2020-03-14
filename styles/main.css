@@ -1,3 +1,7 @@
+@import "./entries.css";
+@import "./form.css";
+@import "./timeline.css";
+
 html {
     height:100%
 }
@@ -37,74 +41,9 @@ html {
     text-shadow: none;
     color: black;
 }
-.form {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    columns: 50;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.formitem {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   background: rgb(135, 206, 250, .8);
-
-}
-
-.entryLog {
-    display: flex;
-    flex-flow: column nowrap;
-    height: 100%;
-    background-image: url("https://previews.123rf.com/images/timhester/timhester1707/timhester170700132/82804014-rock-face-texture-of-large-rocky-cliffs-in-black-and-white.jpg");
-    color: whitesmoke;
-    margin: 0em;
-    width: 60%;
-    /* position: fixed; */
-    overflow-y: scroll;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .9em;
-}
-.journalEntry {
-    margin: 1em;
-    padding: 1em;
-    background-color: black;
-    opacity: .8;
-}
-.journalEntry:hover {
-    opacity: 1;
-
-}
-
-.entryHeader {
-    font-size: 2em;
-}
-
-.entryDetails {
-    color: lightskyblue
-}
 
 .bold {
     font-weight: bolder;
-}
-.button {
-    color: #fff !important;
-text-transform: uppercase;
-text-decoration: none;
-background: black;
-padding: 20px;
-border-radius: 5px;
-border: none;
-transition: all 0.4s ease 0s;
-}
-.button:hover {
-    background: rgba(146, 13, 13);
-letter-spacing: 1px;
-transition: all 0.4s ease 0s
 }
 
 .width100 {
