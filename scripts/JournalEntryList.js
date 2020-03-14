@@ -22,6 +22,7 @@ eventHub.addEventListener("noteStateChanged", () => {
 const EntryListComponent = () => {
     // Use the journal entry data from the data provider component
     const entries = useJournalEntries()
+    const contentTarget = document.querySelector(".entryLog")
 
     for (const entry of entries) {
                 /*

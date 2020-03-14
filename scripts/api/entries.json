@@ -22,18 +22,11 @@
       "id": 3
     },
     {
-      "date": "2020-03-12",
-      "concept": "test",
-      "entry": "sdgdsaga",
-      "mood": "PUMPED",
-      "id": 4
-    },
-    {
-      "date": "2020-03-12",
-      "concept": "test",
-      "entry": "sdgdsaga",
-      "mood": "PUMPED",
-      "id": 5
+      "date": "2020-03-13",
+      "concept": "Event Listeners, Complex functions, and remote Zoom group work",
+      "entry": "Today we spent the day broken out into groups remotely on zoom. The project was to use event listeners to make the page respond by clicking a button/selecting a radio, and updating css classes in specific sections",
+      "mood": "Happy",
+      "id": 6
     }
   ]
 }

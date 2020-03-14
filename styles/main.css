@@ -1,33 +1,114 @@
+html {
+    height:100%
+}
+
 .body {
     display: flex;
-    flex-direction: column;
+    flex-flow: row nowrap;
     height: 100%;
     margin: 0em;
+}
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: url("https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80");
+    background-size: cover;
+    margin-bottom: 0em;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%
+}
+
+.container__header {
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    font-size: 3em;
+    color: #f5f5f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 4px 4px black;
+    margin-bottom: 1.8em;
+    margin-left: 10em;
+}
+.name {
+    font-size: .4em;
+    text-shadow: none;
+    color: black;
 }
 .form {
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 100%;
+    width: 100%;
+    columns: 50;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .formitem {
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background: rgb(135, 206, 250, .8);
+
 }
 
 .entryLog {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
     height: 100%;
+    background-image: url("https://previews.123rf.com/images/timhester/timhester1707/timhester170700132/82804014-rock-face-texture-of-large-rocky-cliffs-in-black-and-white.jpg");
+    color: whitesmoke;
+    margin: 0em;
+    width: 60%;
+    /* position: fixed; */
     overflow-y: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
 }
 .journalEntry {
     margin: 1em;
-    padding: 1em
+    padding: 1em;
+    background-color: black;
+    opacity: .8;
+}
+.journalEntry:hover {
+    opacity: 1;
+
 }
 
-.outerouterentryLog, .outerentryLog {
-    height: 30em;
-    margin: 0em;
- }
- 
+.entryHeader {
+    font-size: 2em;
+}
+
+.entryDetails {
+    color: lightskyblue
+}
+
+.bold {
+    font-weight: bolder;
+}
+.button {
+    color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: black;
+padding: 20px;
+border-radius: 5px;
+border: none;
+transition: all 0.4s ease 0s;
+}
+.button:hover {
+    background: rgba(146, 13, 13);
+letter-spacing: 1px;
+transition: all 0.4s ease 0s
+}
+
+.width100 {
+    width: 100%
+}
+
+
