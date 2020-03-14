@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "date": "02/28/2020",
+      "date": "2020-02-28",
       "concept": "HTML & CSS",
       "entry": "Steve reviewed the code Globetrotters created for our first project. The biggest feedback was the nav bar needed better CSS style naming. I created it so I'll need to fix those styles!",
       "mood": "Okay",
@@ -29,11 +29,18 @@
       "id": 6
     },
     {
-      "date": "2020-03-14",
+      "date": "2020-03-15",
       "concept": "CSS Timelines",
       "entry": "Learned how to incorporate CSS timelines into my daily journal",
       "mood": "PUMPED",
       "id": 7
+    },
+    {
+      "date": "2020-03-15",
+      "concept": "CSS Scrollbar Styling",
+      "entry": "Learned to style the scrollbar on the page with CSS",
+      "mood": "Happy",
+      "id": 8
     }
   ]
 }

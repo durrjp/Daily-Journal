@@ -1,24 +1,18 @@
 .entryLog {
     display: flex;
     flex-flow: column nowrap;
-    /* height: 100%; */
-    background-image: url("https://previews.123rf.com/images/timhester/timhester1707/timhester170700132/82804014-rock-face-texture-of-large-rocky-cliffs-in-black-and-white.jpg");
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size: cover;
+    align-content: flex-end;
     color: whitesmoke;
-    /* margin: 0em; */
-    width: 60%;
-    /* position: fixed; */
+    width: 50%;
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
+    margin: 0em;
+    height: 100%;
 }
 
 .journalEntry {
-    /* margin: 1em;
-    padding: 1em; */
     background-color: black;
     opacity: .8;
 }
