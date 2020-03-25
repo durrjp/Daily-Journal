@@ -2,6 +2,8 @@
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    
 }
 
   /* The actual timeline (the vertical ruler) */
@@ -15,7 +17,8 @@
     left: 51.2%;
     margin-left: -3px;
     overflow-y: auto;
-    height: 150%
+    min-height: 0;
+    height: 175%
 }
 
   /* Container around content */

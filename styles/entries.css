@@ -4,12 +4,11 @@
     align-content: flex-end;
     color: whitesmoke;
     width: 50%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .9em;
     margin: 0em;
-    height: 100%;
 }
 
 .journalEntry {

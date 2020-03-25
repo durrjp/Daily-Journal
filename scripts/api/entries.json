@@ -9,13 +9,6 @@
     },
     {
       "date": "2020-03-12",
-      "concept": "Coding",
-      "entry": "Test entry",
-      "mood": "PUMPED",
-      "id": 2
-    },
-    {
-      "date": "2020-03-12",
       "concept": "Event Listeners",
       "entry": "Today I learned how to effectively implement event listeners into a site. I also finally figured out how to interact with a server to render these journal entries when I submit them. WOO!",
       "mood": "PUMPED",
@@ -29,18 +22,60 @@
       "id": 6
     },
     {
-      "date": "2020-03-15",
+      "date": "2020-03-14",
       "concept": "CSS Timelines",
       "entry": "Learned how to incorporate CSS timelines into my daily journal",
       "mood": "PUMPED",
       "id": 7
     },
     {
-      "date": "2020-03-15",
+      "date": "2020-03-14",
       "concept": "CSS Scrollbar Styling",
       "entry": "Learned to style the scrollbar on the page with CSS",
       "mood": "Happy",
       "id": 8
+    },
+    {
+      "date": "2020-03-16",
+      "concept": "CRUD - C and R",
+      "entry": "Learned today what CRUD stands for and simple Get and Post methods",
+      "mood": "Happy",
+      "id": 9
+    },
+    {
+      "date": "2020-03-17",
+      "concept": "Event State Tracking",
+      "entry": "Updating event state when an event occurs and refreshing different components on the page with new data in from json api's",
+      "mood": "Okay",
+      "id": 10
+    },
+    {
+      "date": "2020-03-19",
+      "concept": "Chart.js",
+      "entry": "Learned to create a bar graph using chart.js",
+      "mood": "Happy",
+      "id": 11
+    },
+    {
+      "date": "2020-03-22",
+      "concept": "Chart.js",
+      "entry": "Learned to create a pie chart using chart.js",
+      "mood": "Happy",
+      "id": 12
+    },
+    {
+      "date": "2020-03-23",
+      "concept": "Chart.js",
+      "entry": "Learned to create a line graph using chart.js",
+      "mood": "Happy",
+      "id": 13
+    },
+    {
+      "date": "2020-03-23",
+      "concept": "Fetch(Delete)",
+      "entry": "Learned to delete entries to a json file",
+      "mood": "Happy",
+      "id": 14
     }
   ]
 }
