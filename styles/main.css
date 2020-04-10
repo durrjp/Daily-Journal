@@ -1,47 +1,23 @@
 @import "./entries.css";
 @import "./form.css";
-@import "./timeline.css";
 @import "./scrollbar.css";
-
-html {
-}
 
 .body {
     display: flex;
-    flex-flow: row nowrap;
-    margin: 0;
-    height:100%
+    flex-flow: column nowrap;
 }
-
-.container {
+.topContainer {
     display: flex;
     flex-flow: row nowrap;
-    background-image: url("https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1986&q=80");
-    background-size: cover;
-    background-attachment: fixed;
-    margin-bottom: 0;
-    width: 100%;
-}
-
-.leftContainer {
-    margin-left:5em;
-    margin-top:7em;
-    margin-right: 22em;
-    padding:auto
+    text-align:left;
 }
 
 .container__header {
     text-transform: uppercase;
-    text-rendering: optimizeLegibility;
     font-size: 3em;
     color: #f5f5f5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     text-shadow: 4px 4px black;
-    margin-bottom: .5em;
-    margin-left: 0em;
 }
 
 .name {
@@ -54,8 +30,6 @@ html {
     font-weight: bolder;
 }
 
-.width100 {
-    width: 100%
-}
+
 
 

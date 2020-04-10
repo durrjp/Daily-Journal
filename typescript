@@ -1,0 +1,82 @@
+Script started on 2020-04-10 13:16:35-0500
+[1m[7m%[27m[1m[0m                                                                                                                      ]2;durrjp@Jon-HP-Spectre: ~/workspace/daily-journal]1;..daily-journal[0m[27m[24m[J[01;32m➜  [36mdaily-journal[00m [01;34mgit:([31mjd-singleform[34m) [33m✗[00m [K[?1h=[?2004hsscripts[?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                      ]2;durrjp@Jon-HP-Spectre: ~/workspace/daily-journal/scripts]1;..urnal/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mjd-singleform[34m) [33m✗[00m [K[?1h=[?2004haapi
+[0mApiSetHost.AppExecutionAlias.dll  apisampling.dll                                                   
+[J[34;42mapi[0m/                              [Japisetschema.dll                  [J                                [A[A[0m[27m[24m[33Capi[K[?1l>[?2004l
+[J]2;api]1;api[1m[7m%[27m[1m[0m                                                                                                                      ]2;durrjp@Jon-HP-Spectre: ~/workspace/daily-journal/scripts/api]1;..l/scripts/api[0m[27m[24m[J[01;32m➜  [36mapi[00m [01;34mgit:([31mjd-singleform[34m) [33m✗[00m [K[?1h=[?2004hapiscripts api   Sdaily-journal[13D..           [11Dhscode .daily-journal[13D..           [11Dgit stash[9Djson-server -p 3000 -w database.json[36Dhs                                  [34Djson-server -p 3000 -w database.json.json .json .json .json .json .json .json .json e.jsonn.jsont.jsonr.jsoni.jsone.jsons.json[?1l>[?2004l
+]2;json-server -p 3000 -w entries.json]1;json-server
+[36m  \{^_^}/ hi![39m
+
+[90m  Loading entries.json[39m
+[90m  Done[39m
+
+[1m  Resources[22m
+  http://localhost:3000/entries
+
+[1m  Home[22m
+  http://localhost:3000
+
+[90m  Type s + enter at any time to create a snapshot of the database[39m
+[90m  Watching...[39m
+
+[0mGET /entries [32m200 [0m6.286 ms - -[0m
+[0mGET /entries [36m304 [0m4.196 ms - -[0m
+[0mGET /entries [36m304 [0m3.827 ms - -[0m
+[0mGET /entries [36m304 [0m3.927 ms - -[0m
+[0mGET /entries [36m304 [0m3.100 ms - -[0m
+[0mGET /entries [36m304 [0m3.960 ms - -[0m
+[0mGET /entries [36m304 [0m4.155 ms - -[0m
+[0mGET /entries [36m304 [0m3.291 ms - -[0m
+[0mGET /entries [36m304 [0m4.127 ms - -[0m
+[0mGET /entries [36m304 [0m4.279 ms - -[0m
+[0mGET /entries [36m304 [0m3.356 ms - -[0m
+[0mGET /entries [36m304 [0m5.161 ms - -[0m
+[0mGET /entries [36m304 [0m3.868 ms - -[0m
+[0mGET /entries [36m304 [0m3.719 ms - -[0m
+[0mGET /entries [36m304 [0m3.197 ms - -[0m
+[0mGET /entries [36m304 [0m3.746 ms - -[0m
+[0mGET /entries [36m304 [0m3.411 ms - -[0m
+[0mGET /entries [36m304 [0m4.689 ms - -[0m
+[0mGET /entries [36m304 [0m4.303 ms - -[0m
+[0mGET /entries [36m304 [0m3.715 ms - -[0m
+[0mGET /entries [36m304 [0m4.198 ms - -[0m
+[0mGET /entries [36m304 [0m4.425 ms - -[0m
+[0mGET /entries [36m304 [0m4.253 ms - -[0m
+[0mGET /entries [36m304 [0m3.489 ms - -[0m
+[0mGET /entries [36m304 [0m2.795 ms - -[0m
+[0mGET /entries [36m304 [0m2.965 ms - -[0m
+[0mGET /entries [36m304 [0m3.509 ms - -[0m
+[0mGET /entries [36m304 [0m4.037 ms - -[0m
+[0mGET /entries [36m304 [0m3.815 ms - -[0m
+[0mGET /entries [36m304 [0m4.520 ms - -[0m
+[0mGET /entries [36m304 [0m3.071 ms - -[0m
+[0mGET /entries [36m304 [0m4.033 ms - -[0m
+[0mGET /entries [36m304 [0m3.999 ms - -[0m
+[0mGET /entries [36m304 [0m3.760 ms - -[0m
+[0mGET /entries [36m304 [0m4.222 ms - -[0m
+[0mGET /entries [36m304 [0m3.623 ms - -[0m
+[0mGET /entries [36m304 [0m3.581 ms - -[0m
+[0mGET /entries [32m200 [0m3.907 ms - -[0m
+[0mGET /entries [32m200 [0m3.804 ms - -[0m
+[0mGET /entries [32m200 [0m3.668 ms - -[0m
+[0mGET /entries [32m200 [0m5.010 ms - -[0m
+[0mGET /entries [32m200 [0m3.794 ms - -[0m
+[0mGET /entries [32m200 [0m4.146 ms - -[0m
+[0mGET /entries [32m200 [0m3.603 ms - -[0m
+[0mGET /entries [32m200 [0m3.678 ms - -[0m
+[0mGET /entries [32m200 [0m5.419 ms - -[0m
+[0mGET /entries [32m200 [0m3.945 ms - -[0m
+[0mGET /entries [32m200 [0m4.591 ms - -[0m
+[0mGET /entries [32m200 [0m4.582 ms - -[0m
+[0mGET /entries [32m200 [0m3.781 ms - -[0m
+[0mGET /entries [32m200 [0m4.329 ms - -[0m
+[0mGET /entries [32m200 [0m3.077 ms - -[0m
+[0mGET /entries [32m200 [0m3.543 ms - -[0m
+[0mGET /entries [32m200 [0m3.892 ms - -[0m
+[0mGET /entries [32m200 [0m4.142 ms - -[0m
+[0mGET /entries [32m200 [0m3.913 ms - -[0m
+[0mGET /entries [32m200 [0m4.269 ms - -[0m
+[0mGET /entries [32m200 [0m3.534 ms - -[0m
+[0mGET /entries [32m200 [0m4.316 ms - -[0m
+[0mGET /entries [36m304 [0m3.808 ms - -[0m
+[0mGET 

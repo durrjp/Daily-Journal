@@ -1,21 +1,14 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    columns: 50;
-    /* justify-content: center;
-    align-items: center; */
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.entryForm {
-    margin-left: 3em;
+.form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
 }
 .formitem {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
    background: rgba(14, 13, 13, 0.6);
    border-radius: 10px;
    margin:.2em;
@@ -28,12 +21,9 @@
     padding: 10px;
     border-radius: 10px;
     transition: all 0.4s ease 0s;
-    margin-bottom: 1em;
-    margin-top: .5em;
-    width: 90%;
-    margin-left: 2.5em;
     border: 4px solid #2DA1E7;
     font-weight: bold;
+    width: 100px
 }
 
 .button:hover {
@@ -43,3 +33,30 @@
     color: black
 }
 
+.buttonDiv {
+    
+}
+
+.date {
+    height: 40px;
+    width: 90px
+}
+
+.mood {
+    height: 50px;
+    width: 250px
+    
+}
+
+.concept {
+    height: 100px;
+    width: 100px
+}
+
+.conceptstext {
+    height: 70px
+}
+
+.text {
+    height: 180px;
+}
